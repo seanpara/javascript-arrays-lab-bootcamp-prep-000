@@ -8,4 +8,4 @@ function destructivelyPrependKitten(name)  { kittens.unshift(name); return kitte
 function destructivelyRemoveLastKitten() {kittens.pop(); return kittens} 
 function destructivelyRemoveFirstKitten() {kittens.shift(); return kittens} 
 function appendKitten(name) {return [...kittens, name]}
-function 
+function prependKitten(name) {return [name, ...kittens]}
